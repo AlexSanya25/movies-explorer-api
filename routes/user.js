@@ -1,9 +1,9 @@
+/* eslint-disable import/extensions */
 const Router = require('express');
 
 const {
   getUser,
   upUser,
-// eslint-disable-next-line import/extensions
 } = require('../controllers/user.js');
 
 const userRouter = Router();

@@ -1,9 +1,7 @@
+/* eslint-disable import/extensions */
 /* eslint-disable no-unused-vars */
 const mongoose = require('mongoose');
-// eslint-disable-next-line import/no-extraneous-dependencies
 const validator = require('validator');
-
-// eslint-disable-next-line import/extensions
 const { regexUrl } = require('../utils/regex.js');
 
 const movieSchema = new mongoose.Schema(

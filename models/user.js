@@ -1,12 +1,12 @@
+/* eslint-disable import/extensions */
 const mongoose = require('mongoose');
-
-// eslint-disable-next-line import/no-unresolved, import/extensions
 const { regexEmail } = require('../utils/regex.js');
 
 const userSchema = new mongoose.Schema(
   {
     name: {
       type: String,
+      required: true,
       minlength: 2,
       maxlength: 30,
     },
