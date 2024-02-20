@@ -1,4 +1,5 @@
-// eslint-disable-next-line import/extensions
+/* eslint-disable import/extensions */
+
 const HttpCodesCards = require('./constants.js');
 
 module.exports = class ConflictError extends Error {

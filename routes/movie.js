@@ -1,15 +1,14 @@
+/* eslint-disable import/extensions */
 const Router = require('express');
-// eslint-disable-next-line import/no-extraneous-dependencies
+
 const { celebrate } = require('celebrate');
 
 const {
   getMovies,
   createMovies,
   deleteMovies,
-// eslint-disable-next-line import/extensions
 } = require('../controllers/movie.js');
 
-// eslint-disable-next-line import/extensions
 const { createMovieJoi, deleteMovieJoi } = require('../joi/joi.js');
 
 const movieRouter = Router();

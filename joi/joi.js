@@ -1,7 +1,6 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
+/* eslint-disable import/extensions */
 const { Joi } = require('celebrate');
 
-// eslint-disable-next-line import/extensions
 const { regexUrl } = require('../utils/regex.js');
 
 const createMovieJoi = {

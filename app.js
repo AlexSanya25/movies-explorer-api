@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 const { json } = require('express');
 const express = require('express');
 const mongoose = require('mongoose');
@@ -5,10 +6,8 @@ const { errors } = require('celebrate');
 
 const router = require('./routes');
 
-// eslint-disable-next-line import/extensions
 const NotFoundError = require('./utils/NotFoundError.js');
 
-// eslint-disable-next-line import/extensions
 const error = require('./utils/error.js');
 
 const { requestLogger, errorLogger } = require('./middlewares/logger');
